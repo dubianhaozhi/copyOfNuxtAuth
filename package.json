@@ -1,0 +1,31 @@
+{
+  "name": "copyofnuxtauth",
+  "version": "1.0.0",
+  "description": "copy of https://github.com/nuxt-community/auth-module/tree/master (v4.9.1) for learning",
+  "main": "lib/module/index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run lint && jest"
+  },
+  "eslintIgnore": [
+    "lib/module/plugin.js"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuyoshi628/copyOfNuxtAuth.git"
+  },
+  "author": "dubianhaozhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsuyoshi628/copyOfNuxtAuth/issues"
+  },
+  "homepage": "https://github.com/tsuyoshi628/copyOfNuxtAuth#readme"
+}

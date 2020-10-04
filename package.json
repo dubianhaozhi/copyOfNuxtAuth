@@ -9,6 +9,7 @@
     "test": "test"
   },
   "scripts": {
+    "lint": "eslint lib test",
     "test": "npm run lint && jest"
   },
   "eslintIgnore": [
@@ -29,6 +30,16 @@
   },
   "homepage": "https://github.com/tsuyoshi628/copyOfNuxtAuth#readme",
   "devDependencies": {
-    "puppeteer": "latest"
+    "nuxt-edge": "latest",
+    "puppeteer": "latest",
+    "eslint": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jest": "latest",
+    "eslint-plugin-node": "latest",
+    "eslint-plugin-promise": "latest",
+    "eslint-plugin-standard": "latest",
+    "eslint-plugin-vue": "latest",
+    "jest": "latest"
   }
 }

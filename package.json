@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/tsuyoshi628/copyOfNuxtAuth/issues"
   },
-  "homepage": "https://github.com/tsuyoshi628/copyOfNuxtAuth#readme"
+  "homepage": "https://github.com/tsuyoshi628/copyOfNuxtAuth#readme",
+  "devDependencies": {
+    "puppeteer": "latest"
+  }
 }
